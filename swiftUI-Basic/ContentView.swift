@@ -9,10 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TextView()
+        VStack {
+    
+                ImageView()
+                ButtonView()
+                TextView()
+               Spacer()
+            
+            HStack {
+                ImageView()
+                ButtonView()
+                TextView()
+                Spacer()
+            }
+            ZStack{
+                ImageView()
+                ButtonView()
+                TextView()
+            }
+        }
     }
 }
-
+ 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TextView: View {
     var body: some View {
+        
         Text("swiftUI")
             .font(.system(size: 40, weight: .bold, design: .default))
     }
@@ -19,3 +20,4 @@ struct TextView_Previews: PreviewProvider {
         TextView()
     }
 }
+ 
